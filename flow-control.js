@@ -8,7 +8,7 @@ function teenager(age) {
   if (age >= 13 && age <= 19){
     return("You are a teenager!");
   }
-  else {
+  else { // apparently [else] and [else if] get their own brackets. i don't remember this.
     return("You are not a teenager");
   }
 }
