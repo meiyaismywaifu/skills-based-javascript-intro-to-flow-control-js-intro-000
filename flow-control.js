@@ -33,9 +33,38 @@ function ternaryTeenager(age) {
 
 function switchAge(age) {
 switch(age){
-  case age >= 13 && age <= 19:
+  /*case age >= 13 && age <= 19:
+    return("You are a teenager!");
+    break;*/
+  // the above is apparently invalid? you can't evaluate inside case?
+  case 13{
     return("You are a teenager!");
     break;
+  }
+  case 14{
+    return("You are a teenager!");
+    break;
+  }
+  case 15{
+    return("You are a teenager!");
+    break;
+  }
+  case 16{
+    return("You are a teenager!");
+    break;
+  }
+  case 17{
+    return("You are a teenager!");
+    break;
+  }
+  case 18{
+    return("You are a teenager!");
+    break;
+  }
+  case 19{
+    return("You are a teenager!");
+    break;
+  }
   default:
     return("You have an age");
   }
